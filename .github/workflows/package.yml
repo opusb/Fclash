@@ -267,7 +267,7 @@ jobs:
             git reset --hard ${{ env.FLUTTER_ELINUX_GIT_COMMIT_ID }} 
           popd
 
-      - uses: Kingtous/run-on-arch-action@amd64-support
+      - uses: KetaDotCC/run-on-arch-action@amd64-support
         name: Build fclash binary for arm64
         id: arm64
         with:
